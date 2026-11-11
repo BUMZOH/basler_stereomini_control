@@ -24,8 +24,9 @@ OUTPUT_FILE = OUTPUT_DIR / "pointcloud.ply"
 BMP_FILE = OUTPUT_DIR / "depth.bmp"
 DEPTH_MIN = 180  # PLY保存範囲（mm）
 DEPTH_MAX = 300
-BMP_DEPTH_MIN = 221.9  # BMP濃淡表示範囲（mm）
-BMP_DEPTH_MAX = 232.8
+# BMP濃淡表示範囲（mm）(3D Viewerで決定すること)
+BMP_DEPTH_MIN = 224
+BMP_DEPTH_MAX = 234
 
 
 # ================================================
